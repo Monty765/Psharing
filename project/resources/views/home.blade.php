@@ -39,7 +39,7 @@
         request.open('POST','upload');
         //request.addEventListener("load",transferComplete);
         request.send(formData) ;
-        
+        document.location = "/uploads";
      });
 
     //function transferComplete(data){
